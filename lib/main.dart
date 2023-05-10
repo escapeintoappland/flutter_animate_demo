@@ -36,7 +36,7 @@ class AnimatedCollectible extends StatelessWidget {
             fit: BoxFit.cover),
       ),
       child: Center(
-          child: Image.asset('assets/vase.png').
+          child: Image.asset('assets/vase.png ').
           animate()
           .shimmer(delay : 400.ms, duration: 1800.ms)
           .shake(hz:4, curve: Curves.easeInOutCubic)
